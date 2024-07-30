@@ -1,0 +1,66 @@
+h2 {
+    background-color: rgba(107, 212, 125, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+
+.box-buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+#nome-pokemon {
+    margin: 15px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+    font-weight: 500;
+}
+
+.dados-pokemon {
+    background-color: white;
+    margin: 10px;
+}
+
+.imagem {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#box-imagem {
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.lista-dados {
+    display: grid;
+    height: 200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
