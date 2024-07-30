@@ -1,0 +1,14 @@
+{
+  "name": "projeto_compartilhado",
+  "version": "1.0.0",
+  "description": "projeto compartilhado em node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wolneihd",
+  "license": "ISC",
+  "dependencies": {
+    "express-generator": "^4.16.1"
+  }
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(145, 212, 156);
+  border-bottom: 1px solid;
+}
+
+.opcoes-feature {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.opcao-feature {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(145, 212, 156);
+  transition: background-color 0.3s ease; /* transição suave */
+  border-radius: 20px;
+  text-decoration: none;
+  color: green;
+}
+
+.opcao-feature:hover {
+  margin-left: 15px;
+  background-color: rgba(107, 212, 125); /* 25% mais claro no hover */
+  font-weight: 900;
+  border: 1px solid green;
+  border-radius: 20px;
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
