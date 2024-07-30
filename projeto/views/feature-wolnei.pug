@@ -2,4 +2,17 @@ extends layout
 
 block content
   link(rel='stylesheet', href='/stylesheets/style-wolnei.css')
-  p altere aqui o que desejar
+  div.container
+    h2 POKEDEX
+    div.box-buscar      
+      input(type='text' placeholder='Digite o nome do pokemon' id='nome-pokemon')
+      button(onclick='buscarPokemon()') BUSCAR
+    div.dados-pokemon
+      div.imagem
+        img#box-imagem
+      div.lista-dados
+        p#id-pokemon
+        p#name-pokemon 
+        p#tipo-pokemon
+    script(src='https://code.jquery.com/jquery-3.6.0.min.js')
+    script(src='javascripts/feature-wolnei.js')
