@@ -2,4 +2,41 @@ extends layout
 
 block content
   link(rel='stylesheet', href='/stylesheets/style-filipe.css')
-  p altere aqui o que desejar
+  h1 Curiosidades Sobre Pokémon
+  div.container 
+    ul 
+      li Pokémon foi criado em 1996 pelo designer japonês Satoshi Tajiri!
+      li Tajiri se inspirou em sua infância, quando gostava de colecionar insetos!
+      li O nome Pokémon vem da abreviação de “Pocket Monsters” (Monstros de Bolso)
+      li O primeiro jogo da série foi lançado para Game Boy em 1996 no Japão
+
+  h2 Qual Pokémon é o mais Popular? 
+
+  p O Pikachu é o Pokémon mais popular e icônico da série. Ele é conhecido por sua aparência fofa e por ser o companheiro do personagem principal Ash Ketchum.
+
+  form.formulario 
+    h2 Quer se tornar um Treinador Pokémon, preencha o cadastro abaixo: 
+
+    label Nome: 
+    input(type="text", placeholder='Digite Seu Nome...')
+    br
+    br
+    label Email: 
+    input(type="email", placeholder="Digite seu E-mail...")
+    br
+    br
+    label Idade: 
+    input(type="number" placeholder="Digite sua Idade...")
+    br
+    br
+    label Envie uma foto sua:
+    input(type="file" placeholder="Envie um arquivo JPEG")
+    br
+    br 
+    label Deixe uma mensagem para a gente: 
+    textarea(name="mensagem", cols="30", rows="10" placeholder="Devemos escolher você?") 
+    br
+    br
+    button(type="submit") Enviar
+
+
