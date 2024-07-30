@@ -16,4 +16,9 @@ router.get('/filipe', function(req, res, next) {
   res.render('feature-filipe');
 });
 
+// direcionamento para página > WILLIAM
+router.get('/william', function(req, res, next) {
+  res.render('feature-william');
+});
+
 module.exports = router;
