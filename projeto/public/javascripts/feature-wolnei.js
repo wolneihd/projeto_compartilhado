@@ -28,13 +28,25 @@ async function buscarPokemon() {
 }
 
 function tipoPokemon(tipo) {
-    console.log(tipo);
-    var tipos = ["normal","fighting","flying","poison","ground","rock","bug","ghost","steel","fire","water","grass","electric","psychic","ice","dragon","dark","fairy","stellar","unknown","shadow"]
-    for(i=0;i<tipos.length;i++){
-        if (tipos[i] == tipo) {
+    // tipos = ["normal","fighting","flying","poison","ground","rock","bug","ghost","steel","fire","water","grass","electric","psychic","ice","dragon","dark","fairy","stellar","unknown","shadow"]  
+    switch (tipo) {
+        case 'electric':
             $('#box-imagem').css("background-color", "lightyellow");
-        } else if (tipos[i] == tipo) {
-            $('#box-imagem').css("background-color", "red");
-        }
+            break;
+        case 'fire':
+            $('#box-imagem').css("background-color", "rgba(255,101,80,0.4)");
+            break;
+        case 'water':
+            $('#box-imagem').css("background-color", "lightblue");
+            break;
+        case 'grass':
+            $('#box-imagem').css("background-color", "lightgreen");
+            break;
+        case 'bug':
+            $('#box-imagem').css("background-color", "lightgreen");
+            break;
+        case 'poison':
+            $('#box-imagem').css("background-color", "lightpurple");
+            break;
     }
 }
